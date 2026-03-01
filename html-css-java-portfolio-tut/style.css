@@ -331,6 +331,17 @@ section {
     margin-bottom: 2rem;
 }
 
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center; /* Keeps the text centered like your image */
+  }
+
+  .column {
+    flex: 1;
+  }
+
 .experience-details-container {
     display: flex;
     justify-content: center;
