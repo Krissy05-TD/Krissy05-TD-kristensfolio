@@ -295,6 +295,7 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+    position: relative;
 }
 
 .arrow {
@@ -311,7 +312,6 @@ section {
     background: white;
     border-radius: 2rem;
     border:rgb(223, 59, 160) 0.1rem solid;
-    margin-bottom: 5rem;
     width: 5rem;
 }
  
