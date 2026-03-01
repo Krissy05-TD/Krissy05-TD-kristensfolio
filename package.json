@@ -1,0 +1,26 @@
+{
+  "name": "krissy05-td-kristensfolio",
+  "version": "1.0.0",
+  "description": "A Portfolio created to display my journey",
+  "homepage": "https://github.com/Krissy05-TD/Krissy05-TD-kristensfolio#readme",
+  "bugs": {
+    "url": "https://github.com/Krissy05-TD/Krissy05-TD-kristensfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krissy05-TD/Krissy05-TD-kristensfolio.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "start": "lite-server"
+},
+  "dependencies": {
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
