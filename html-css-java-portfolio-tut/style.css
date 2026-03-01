@@ -103,7 +103,8 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: rgb(241 224 237 / 92%);
+    border-radius: 2rem;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -156,14 +157,16 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    min-height: 96vh;
+    height: auto;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
 }
 
 .section-container {
     display: flex;
+    gap: 4rem;
+    height: auto; 
 }
 
 /* PROFILE SECTION */
@@ -271,10 +274,13 @@ section {
 
 #about {
     position: relative;
+    height: auto;
+    display: block;
 }
 
 .about-containers {
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .about-details-container {
@@ -297,6 +303,18 @@ section {
     bottom: 2.5rem;
 }
 
+#more { 
+    display: none; 
+}
+
+.buttonRead {
+    background: white;
+    border-radius: 2rem;
+    border:rgb(223, 59, 160) 0.1rem solid;
+    margin-bottom: 5rem;
+    width: 5rem;
+}
+ 
 .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -354,18 +372,21 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 1rem;
 }
 
 article {
     display:flex;
-    width: 10rem;
-    justify-content: space-around;
-    gap: 0.5rem;
+    width: 12rem;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: flex-start;
 }
 
 article .icon {
     cursor: default;
+    flex-shrink: 0;
 }
 
 /* PROJECTS SECTION */
